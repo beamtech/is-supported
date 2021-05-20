@@ -1,0 +1,17 @@
+{
+  "name": "is-supported",
+  "version": "1.0.0",
+  "description": "determines if client is running on a supported browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand --forceExit"
+  },
+  "author": "Randy Lough",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
+}
