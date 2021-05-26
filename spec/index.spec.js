@@ -1,4 +1,4 @@
-import Browser from "../index";
+import Browser from "../src/index";
 
 let userAgent = jest.spyOn(global.navigator, "userAgent", "get");
 let vendor = jest.spyOn(global.navigator, "vendor", "get");
